@@ -1,0 +1,145 @@
+
+  <header>
+    <div class="container-grid">
+      <a class="logo" href="index.html"
+        ><img
+          class="foto-logo"
+          src="/assets/img/CordeiroPlays.png"
+          alt="Foto da logo"
+      /></a>
+      <nav id="menu" class="menu">
+        <a href="">Loja</a>
+        <a href="">Novidades</a>
+        <a href="">Ligas</a>
+        <a href="">Prêmios</a>
+        <a routerLink="login">Login</a>
+      </nav>
+    </div>
+    <a href="#" id="barras"><img class="menu-barras" src="img/menu.png" /></a>
+  </header>
+
+  <div class="texto-banner">
+    <p>Venha fazer parte da liga mundial de F1 online multiplayer</p>
+    <p>
+      Aqui você disputará campeonatos super disputados entre outros pilotos no
+      modo multiplayer.
+    </p>
+    <p>CordeiroPlays mundial de pilotos virtuais</p>
+  </div>
+  <div class="carosel-boot">
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="/assets/img/imagem7.jpg" alt="Random first slide" />
+        </div>
+        <div class="carousel-caption"></div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="/assets/img/imagem4.jpg" alt="Random second slide" />
+        </div>
+        <div class="carousel-caption"></div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="/assets/img/imagem6.jpg" alt="Random third slide" />
+        </div>
+        <div class="carousel-caption"></div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <!-- <div class="foto-carrossel" id="carrosel" class="carrosel">
+    <img src="img/imagem3.jpg">
+    <img src="img/imagem4.jpg">
+    <img src="img/imagem5.jpg">
+    <img src="img/imagem6.jpg">
+    <img src="img/imagem7.jpg">
+</div> -->
+
+  <!-- <div class="banner">
+    <img class="banner1"src="img/imagem4.png">
+    <img src="img/imagem3.jpg" >
+</div> -->
+
+  <div class="link-click">
+    <a class="link" href="">clique aqui e se inscreva</a>
+  </div>
+  <section>
+    <div class="plataformas">
+      <a href=""><img src="/assets/img/ps5 1.png" /></a>
+      <a href=""><img src="/assets/img/xbox 1.png" /></a>
+      <a href=""><img src="/assets/img/logo-steam 1.png" /></a>
+      <a href=""><img src="/assets/img/f1-logo.png" /></a>
+    </div>
+  </section>
+
+  <h1 class="titulo">Notícias</h1>
+
+  <div class="noticias" id="espaco-noticias">
+    <div class="noticia1">
+      <img src="/assets/img/f1-logo.png" />
+      <h3>Max Verstappen</h3>
+      <p>
+        Verstappen revela cãibras nos momentos finais do GP de Abu Dhabi: “Não
+        aguentaria mais uma volta”
+      </p>
+    </div>
+
+    <div class="noticia2">
+      <img src="/assets/img/f1-logo.png" />
+      <h3>Sergio Perez</h3>
+      <p>
+        Pérez admite "dificuldade" em parceria com Verstappen após 2021 "de
+        muita pressão"
+      </p>
+    </div>
+    <div class="noticia3">
+      <img src="/assets/img/f1-logo.png" />
+      <h3>Lewis Hamilton</h3>
+      <p>
+        Lewis Hamilton volta às redes e divulga imagens de corrida por Londres
+      </p>
+    </div>
+    <div class="noticia4">
+      <img src="/assets/img/f1-logo.png" />
+      <h3>Pierre Gasly</h3>
+      <p>Gasly elogia método de trabalho da Honda na F1</p>
+    </div>
+  </div>
+  <footer>
+    <div class="rodape">
+      <div class="rodape1">
+        <ul>
+          <li><a href="">Fale Conosco</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Fórum</a></li>
+        </ul>
+      </div>
+      <div class="rodape2">
+        <ul>
+          <li><a href="">Dúvidas</a></li>
+          <li><a href="">Regras</a></li>
+          <li><a href="">Prêmios</a></li>
+        </ul>
+      </div>
+      <img src="/assets/img/imagem2.png" />
+      <div class="sobre">
+        <a href="">Sobre a CordeiroPlays</a>
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+          <ul>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              [(ngModel)]="userModel.email"
+            />
+
+            <button type="submit">Cadastrar</button>
+          </ul>
+        </form>
+        <p>Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+</body>

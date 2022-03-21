@@ -1,0 +1,142 @@
+/* *PÁGINA CADASTRO */
+
+#cadastro-global {
+    display: flex;
+    height: 50vh;
+    position: relative;
+    top: -100px;
+   }
+   
+   aside {
+       display: flex;
+       flex: 5;
+       background-color: white;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       box-sizing: border-box;
+       border-color:black;
+       border-width: 300px;
+       border-style:solid;
+       border-radius: 0px;
+       margin-bottom: 20px;
+       box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+       height: 400px;
+       margin-top: 100px;
+       border: 1px solid;
+       background-color: #04A596;
+   }
+   
+   aside h2 {
+       color: white;
+   }
+   
+   
+   
+   main {
+       display: flex;
+       flex: 5;
+       background-color: white;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       box-sizing: border-box;
+       border-color:black;
+       border-width: 300px;
+       border-style:solid;
+       border-radius: 0px;
+       margin-bottom: 20px;
+       box-shadow: 0px 0px 30px #04A596, 0px 0px 10px silver;
+       height: 400px;
+       margin-top: 100px;
+       border: 1px solid;
+       background-color: silver;
+       
+   }
+   
+   main h2 {
+       color: white;
+   }
+   
+   
+   
+   .login p {
+       color: white;
+       font-size: 16px;
+   }
+   
+   .login input {
+       width: 400px;
+       padding: 9px;
+       border-radius: 0px;
+       border: 1px solid;
+   }
+   
+   .acessar {
+       display: flex;
+   }
+   
+   .acessar button {
+       width: 100px;
+       padding: 8px;
+       height: 40px;
+       border-radius: 0px;
+       position: relative;
+       top: 30px;
+       left: 115px;
+       cursor: pointer;
+   }
+   
+   .acessar button:hover{
+       transform: scale(1.2);
+       
+   }
+   
+   .acessar input {
+       position: relative;
+       top: 42px;
+       right: 65px;
+   }
+   
+   .acessar p {
+       position: relative;
+       right: 250px;
+       top: 9px;
+       font-size: 12px;
+       color: white;
+   }
+   
+   .acessar a {
+       position: relative;
+       top: 34px;
+       right: 220px;
+       text-decoration: none;
+       color: #04A596;
+   }
+   
+   
+   .cadastro p {
+       color: white;
+       font-size: 16px;
+   }
+   
+   .cadastro input {
+       width: 400px;
+       padding: 9px;
+       border-radius: 0px;
+       border: 1px solid;
+   }
+   
+   .cadastrar button {
+       width: 130px;
+       position: relative;
+       right: 165px;
+       border-radius: 0px;
+       top: 30px;
+       padding: 8px;
+       cursor: pointer;
+   }
+   
+   .cadastrar:hover {
+       transform: scale(1.2);
+   }
